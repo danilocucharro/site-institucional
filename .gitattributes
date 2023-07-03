@@ -1,0 +1,1 @@
+.yarn/unplugged/@next-swc-win32-x64-msvc-npm-13.4.7-ac3d5d5078/node_modules/@next/swc-win32-x64-msvc/next-swc.win32-x64-msvc.node filter=lfs diff=lfs merge=lfs -text
