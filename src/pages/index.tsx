@@ -1,6 +1,10 @@
 import Head from 'next/head'
 import styles from '../styles/home.module.scss';
 
+import Image from 'next/image'
+
+import techsImage from '../../public/images/techs.svg'
+
 export default function Home() {
   return (
     <>
@@ -42,7 +46,17 @@ export default function Home() {
             <h2>Aprenda a criar Sistemas Web</h2>
             <span>Criar Sistemas Web, sites usando as tecnologias mais modernas e requisitadas pelo mercado.</span>
           </section>      
+        </div>
 
+        <div className={styles.footerContainer}>
+          <Image quality={100} src={techsImage} alt='tecnologias do curso' />
+          <h2>Mais de <span>15 mil</span> já levaram sua carreira ao<br/> próximo nivel.</h2>
+          <span>Não fique ai parado e venha para o próximo nivel.</span>
+          <a>
+            <button>
+              ACESSAR TURMA
+            </button>
+          </a>
         </div>
       </main>
     </>
