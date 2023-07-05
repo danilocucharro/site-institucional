@@ -18,8 +18,31 @@ export default function Home() {
               </button>
             </a>
           </section>
-
+          
           <img src="/images/banner-conteudos.png" alt="conteudos do curso" />
+        </div>
+
+        <hr className={styles.divisor}/>
+
+        <div className={styles.sectionContent}>
+          <section>
+            <h2>Aprenda a criar aplicativos para Android e IOS</h2>
+            <span>Você vai descobri o jeito mais moderno de desenvolver apps nativos para IOS e Android, construindo aplicativos do zero até apps profissionais.</span>
+          </section>      
+
+          <img src="/images/financasApp.png" alt="conteudos de app mobile" />
+        </div>
+
+        <hr className={styles.divisor}/>
+
+        <div className={styles.sectionContent}>
+          <img src="/images/webDev.png" alt="conteudos de aplicações web" />
+          
+          <section>
+            <h2>Aprenda a criar Sistemas Web</h2>
+            <span>Criar Sistemas Web, sites usando as tecnologias mais modernas e requisitadas pelo mercado.</span>
+          </section>      
+
         </div>
       </main>
     </>
